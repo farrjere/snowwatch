@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    android:padding="@dimen/widget_margin">
+    <ImageView
+        android:id="@+id/widget_icon"
+        android:contentDescription="@string/current_weather_placeholder"
+        android:layout_width="56dp"
+        android:layout_height="50dp" />
+
+
+    <LinearLayout
+        android:paddingTop="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:paddingStart="5dp"
+            android:paddingEnd="0dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:id="@+id/widget_temp"
+                android:paddingStart="3dp"
+                android:paddingEnd="0dp"
+                android:gravity="center_horizontal"
+                android:layout_height="match_parent"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="@string/temperature_widget"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/widget_depth"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_horizontal"
+                android:text="@string/depth_widget"
+                android:textColor="@android:color/white"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

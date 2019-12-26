@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Snow Watch</string>
+    <string name="temperature">Temperature:</string>
+    <string name="depth">Depth:</string>
+    <string name="weather">Weather:</string>
+    <string name="open_lifts">Open Lifts:</string>
+    <string name="open_trails">Open Trails:</string>
+    <string name="groomed">Groomed:</string>
+    <string name="_12hr">12hr:</string>
+    <string name="_24hr">24hr:</string>
+    <string name="updated">Updated:</string>
+    <string name="temperature_widget">Temp</string>
+    <string name="depth_widget">Depth</string>
+    <string name="current_weather_placeholder">Current weather</string>
+</resources>
